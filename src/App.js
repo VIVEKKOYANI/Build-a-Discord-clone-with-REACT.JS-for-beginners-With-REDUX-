@@ -1,9 +1,11 @@
 import React from "react";
-
+import Sidebar from './Sidebar';
 import "./App.css";
+import Chat from "./Chat";
 const App = () => (
-  <div className="App">
-    <h1>hello</h1>
+  <div className="app">
+    <Sidebar />
+    <Chat />
   </div>
 );
 
